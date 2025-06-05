@@ -11,10 +11,13 @@ public class LibBookCount {
         for(int i=0;i<n;i++){
             String bookTitle = input.nextLine();
             String bookAuth=input.nextLine();
-            int noOfCopies= Integer.parseInt(input.nextLine());
+            int noOfCopies= input.nextInt();input.nextLine();
             libBook[i]= new LibBook(bookTitle,bookAuth,noOfCopies);
 
         }
+        totalNoOfCoppies(LibBook[] libBook)
+    }
+    public static void totalNoOfCoppies(LibBook[] libBook){
 
     }
 }

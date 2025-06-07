@@ -15,7 +15,7 @@ public class LibBookCount {
             libBook[i]= new LibBook(bookTitle,bookAuth,noOfCopies);
 
         }
-        totalNoOfCoppies(LibBook[] libBook)
+        //totalNoOfCoppies(LibBook[] libBook)
     }
     public static void totalNoOfCoppies(LibBook[] libBook){
 

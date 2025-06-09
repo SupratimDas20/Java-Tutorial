@@ -14,14 +14,14 @@ Primitive types are basic, fundamental data types provided by Java. They store s
 Types of Primitive Data Types in Java:
 | Data Type    | Size   | Example         | Description    |
 |--------------|--------|-----------------|----------------|
-| `byte`       | 1 byte | `byte b = 100;` | Stores **small integers** (-128 to 127) |
-| `short` | 2 bytes | `short s = 2000;` | Stores **medium integers** (-32,768 to 32,767) |
-| `int` | 4 bytes | `int num = 100000;` | Stores **large integers** (-2^31 to 2^31-1) |
-| `long` | 8 bytes | `long bigNum = 100000000L;` | Stores **very large integers** (-2^63 to 2^63-1) |
-| `float` | 4 bytes | `float f = 3.14f;` | Stores **decimal numbers** (single precision) |
-| `double` | 8 bytes | `double d = 3.141592653;` | Stores **decimal numbers** (double precision) |
-| `char` | 2 bytes | `char letter = 'A';` | Stores **a single character** |
-| `boolean` | 1 bit | `boolean isJavaFun = true;` | Stores **true** or **false** |
+| `byte`       | 1 byte | `byte b = 100;` | Stores small integers (-128 to 127) |
+| `short` | 2 bytes | `short s = 2000;` | Stores medium integers (-32,768 to 32,767) |
+| `int` | 4 bytes | `int num = 100000;` | Stores large integers (-2^31 to 2^31-1) |
+| `long` | 8 bytes | `long bigNum = 100000000L;` | Stores very large integers (-2^63 to 2^63-1) |
+| `float` | 4 bytes | `float f = 3.14f;` | Stores decimal numbers (single precision) |
+| `double` | 8 bytes | `double d = 3.141592653;` | Stores decimal numbers (double precision) |
+| `char` | 2 bytes | `char letter = 'A';` | Stores a single character |
+| `boolean` | 1 bit | `boolean isJavaFun = true;` | Stores true or false |
 
 #### **Key Features:**
 - **Memory-efficient:** They take up **fixed** amounts of memory.

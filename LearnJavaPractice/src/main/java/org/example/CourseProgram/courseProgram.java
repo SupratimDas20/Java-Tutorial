@@ -95,7 +95,7 @@ public class courseProgram {
      * @return Sorted array of Course objects, or null if no courses qualify
      */
     public static Course[] sortCourseByHandsOn(Course[] courseArray, int handsOnLimit) {
-        // Start with empty array and dynamically grow it
+        // Start with empty array and dynamically grow it 
         Course[] filteredCourses = new Course[0];
 
         // Filter courses: include only those with hands-on < limit

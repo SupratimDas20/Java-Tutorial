@@ -4,6 +4,25 @@ public class Primedt {
     public static void main(String[] args){
         int num=23;
         System.out.println(num);
+        byte by=127;
+        System.out.println(by);
+        short sh=558;
+        System.out.println(sh);
+        long ln=8765l;
+        System.out.println(ln);
+
+        float marks=6.5f;
+        System.out.println(marks);
+        double marks1=6.987654;
+        System.out.println(marks1);
+
+        char ch='c';
+        System.out.println(ch);
+
+        boolean bl=true;
+        System.out.println(bl);
+
+
     }
 }
 /***********************************************************************************************************************

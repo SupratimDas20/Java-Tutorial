@@ -14,7 +14,22 @@ public class MedicineProgram {
             int price=sc.nextInt();sc.nextLine();
             M[i]=new Medicine(MedicineName,batch,disease,price);
         }
-        getPriceByDisease
+        String str=sc.nextLine();
+        getPriceByDisease(M,str);
+    }
+    static void getPriceByDisease(Medicine[] M,String str){
+        int index=-1;
+        for(int i=0;i<M.length;i++){
+            if(M[i].disease.equalsIgnoreCase(str)){
+                index=M[i].price;
+            }
+        }
+        if(index==-1){
+            System.out.println("Not Found");
+        }
+        else{
+            System.out.println(M[index].price);
+        }
     }
 
 }
